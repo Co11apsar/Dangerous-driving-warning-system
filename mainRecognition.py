@@ -6,7 +6,7 @@ from cvzone.HandTrackingModule import HandDetector
 from cvzone.FaceMeshModule import FaceMeshDetector
 from cvzone.PlotModule import LivePlot
 
-clf = joblib.load("svm1.m")#SVM训练集
+clf = joblib.load("svmTraining.m")#SVM训练集
 
 cap=cv2.VideoCapture(0)#摄像头
 
